@@ -6,6 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.persistence.SequenceGenerator;
+
 @RequiredArgsConstructor
 @RestController
 public class BoardController {
@@ -14,7 +16,7 @@ public class BoardController {
 
     @GetMapping("/dummy")
     public ResponseEntity<Board> set() {
-        Board result = boardRepository.save(Board.builder().id("id-1").title("더미타이틀").content("테스트데이터").build());
+        Board result = boardRepository.save(Board.builder().title("더미타이틀").content("테스트데이터").build());
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 }
