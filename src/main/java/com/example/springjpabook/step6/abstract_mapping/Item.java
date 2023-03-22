@@ -1,4 +1,4 @@
-package com.example.springjpabook.abstract_mapping;
+package com.example.springjpabook.step6.abstract_mapping;
 
 import javax.persistence.*;
 

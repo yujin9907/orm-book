@@ -1,4 +1,4 @@
-package com.example.springjpabook.composite_key;
+package com.example.springjpabook.step6.composite_key;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

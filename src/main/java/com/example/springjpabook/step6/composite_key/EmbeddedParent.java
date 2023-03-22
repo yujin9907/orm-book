@@ -1,4 +1,4 @@
-package com.example.springjpabook.composite_key;
+package com.example.springjpabook.step6.composite_key;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;

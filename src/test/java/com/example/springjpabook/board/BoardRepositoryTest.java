@@ -1,5 +1,7 @@
 package com.example.springjpabook.board;
 
+import com.example.springjpabook.step4.board.Board;
+import com.example.springjpabook.step4.board.BoardRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

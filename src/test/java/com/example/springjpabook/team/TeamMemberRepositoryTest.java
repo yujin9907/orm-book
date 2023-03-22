@@ -1,5 +1,9 @@
 package com.example.springjpabook.team;
 
+import com.example.springjpabook.step6.team.Team;
+import com.example.springjpabook.step6.team.TeamMembarRepository;
+import com.example.springjpabook.step6.team.TeamMember;
+import com.example.springjpabook.step6.team.TeamRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,8 +20,10 @@ import java.util.List;
 @ActiveProfiles("test")
 public class TeamMemberRepositoryTest {
 
-    @Autowired TeamRepository teamRepository;
-    @Autowired TeamMembarRepository teamMembarRepository;
+    @Autowired
+    TeamRepository teamRepository;
+    @Autowired
+    TeamMembarRepository teamMembarRepository;
     @Autowired EntityManager em;
 
     @BeforeEach

@@ -1,4 +1,4 @@
-package com.example.springjpabook.member;
+package com.example.springjpabook.step4.member;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

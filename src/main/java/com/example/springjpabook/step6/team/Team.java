@@ -1,4 +1,4 @@
-package com.example.springjpabook.team;
+package com.example.springjpabook.step6.team;
 
 // 일대다 단방향 연관관계 팀-팀회원
 
@@ -11,7 +11,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.print.attribute.standard.MediaSize;
 import java.util.ArrayList;
 import java.util.List;
 

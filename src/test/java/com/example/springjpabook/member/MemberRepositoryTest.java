@@ -1,5 +1,8 @@
 package com.example.springjpabook.member;
 
+import com.example.springjpabook.step4.member.Member;
+import com.example.springjpabook.step4.member.MemberRepository;
+import com.example.springjpabook.step4.member.RoleType;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

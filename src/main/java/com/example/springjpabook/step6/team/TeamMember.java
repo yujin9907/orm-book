@@ -1,4 +1,4 @@
-package com.example.springjpabook.team;
+package com.example.springjpabook.step6.team;
 
 // 일대다 단방향 연관관계 팀-팀회원
 

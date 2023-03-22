@@ -19,9 +19,7 @@
 
 * 6장 
 
-* 7장
-* 8장
+* 7장 : https://iris-allspice-3bc.notion.site/7-a2b630ec4bcb485e86ea9b2aaedbf362
+* 8장 : https://iris-allspice-3bc.notion.site/8-8b562319119e431582c9bb3d96d43e6f
 * 9장
-* 10장
-* 11장
-* 12장
+* 10장 : https://iris-allspice-3bc.notion.site/10-jpql-7b33238f93fe40e7ba3883b3cb89cccf

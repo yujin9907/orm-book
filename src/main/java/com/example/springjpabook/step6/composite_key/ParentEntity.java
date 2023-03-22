@@ -1,13 +1,10 @@
-package com.example.springjpabook.composite_key;
+package com.example.springjpabook.step6.composite_key;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Parent;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 // IdClass로 복합키를 매핑하는 방법
 

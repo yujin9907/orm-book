@@ -1,4 +1,4 @@
-package com.example.springjpabook.team;
+package com.example.springjpabook.step6.team;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

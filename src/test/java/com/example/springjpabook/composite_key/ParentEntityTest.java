@@ -1,5 +1,7 @@
 package com.example.springjpabook.composite_key;
 
+import com.example.springjpabook.step6.composite_key.ParentEntity;
+import com.example.springjpabook.step6.composite_key.ParentId;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

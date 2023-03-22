@@ -1,4 +1,4 @@
-package com.example.springjpabook.board;
+package com.example.springjpabook.step4.board;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
